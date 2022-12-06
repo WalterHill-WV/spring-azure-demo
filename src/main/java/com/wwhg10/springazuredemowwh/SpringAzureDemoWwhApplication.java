@@ -11,7 +11,7 @@ public class SpringAzureDemoWwhApplication {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Congrats! your app deployed successfully in Azure!";
+		return "Congrats!! Finally";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAzureDemoWwhApplication.class, args);
